@@ -1,0 +1,8 @@
+description = "Spring cloud stream server"
+
+dependencies {
+    compile 'org.springframework.cloud:spring-cloud-stream'
+    compile 'org.springframework.cloud:spring-cloud-starter-stream-kafka'
+
+    compile project(':api')
+}

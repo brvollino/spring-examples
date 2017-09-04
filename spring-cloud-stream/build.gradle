@@ -12,9 +12,6 @@ buildscript {
 description = "Spring cloud stream examples"
 
 allprojects {
-    apply plugin: 'eclipse'
-    apply plugin: 'idea'
-
     group = 'com.vollino.examples.spring.stream'
     version = '0.1.0-SNAPSHOT'
 }

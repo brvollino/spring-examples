@@ -8,4 +8,6 @@ build/
 .classpath
 .cache-main
 out/
-
+gradle
+gradlew
+gradlew.bat

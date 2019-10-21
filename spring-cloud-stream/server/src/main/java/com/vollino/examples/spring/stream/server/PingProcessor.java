@@ -1,4 +1,4 @@
-package com.vollino.examples.spring.stream.client;
+package com.vollino.examples.spring.stream.server;
 
 import com.vollino.examples.spring.stream.api.ChannelNames;
 import com.vollino.examples.spring.stream.api.Ping;

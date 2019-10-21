@@ -1,4 +1,4 @@
-package com.vollino.examples.spring.stream.client;
+package com.vollino.examples.spring.stream.server;
 
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.context.annotation.Configuration;

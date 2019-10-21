@@ -12,6 +12,7 @@ spring:
           destination: process_queue
         processed:
           destination: processed
+          group: pong-consumer
       kafka:
         binder:
           brokers: localhost:9092

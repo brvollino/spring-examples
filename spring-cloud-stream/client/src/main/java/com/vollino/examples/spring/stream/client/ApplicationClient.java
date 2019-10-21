@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Import;
 
 @Import(KafkaConfig.class)
 @SpringBootApplication
-public class Application {
+public class ApplicationClient {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(ApplicationClient.class, args);
     }
 }

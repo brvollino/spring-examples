@@ -10,6 +10,7 @@ spring:
       bindings:
         process_queue:
           destination: process_queue
+          group: ping-consumer
         processed:
           destination: processed
       kafka:
